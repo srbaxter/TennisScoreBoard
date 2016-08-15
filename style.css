@@ -1,0 +1,63 @@
+.container {
+	width: 1000px;
+	height: 625px;
+	margin: 0 auto;
+	background-color: rgb(24, 46, 33);
+}
+
+.name {
+	color: white;
+	text-align: center;
+	font-size: 2em;
+	margin: -35px 0;
+}
+
+.teamA, .teamB {
+	width: 49%;
+	display: inline-block;
+}
+
+.teamABox, .teamBBox {
+	width: 350px;
+	height: 450px;
+	background-color: rgb(1, 0, 0);
+	color: rgb(243, 254, 56);
+	margin-bottom: 15px;	
+}
+
+.teamABox {
+	float: left;
+	margin-left: 35px;
+}
+
+.teamBBox {
+	float: right;
+	margin-right: 35px;
+}
+
+.points {
+	font-size: 20em;
+	text-align: center;
+	top: 10%;
+	position: relative;
+}
+
+.games, .sets {
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	background-color: rgb(1, 0, 0);
+	color: rgb(243, 254, 56);	
+	margin: 0 -3px 0 1px;
+	font-size: 2.5em;
+	text-align: center;
+}
+
+.resetbtn {
+	margin: 15px auto;
+	display: block;
+	height: 50px;
+	font-size: 2em;	
+	font-weight: bold;
+	border: none;
+}
